@@ -15,7 +15,7 @@ class CreateMoviesService{
                 autor: autor,
                 title: title,
                 descripion: descripion,
-                image: image
+                image: 'http://localhost:3333/files/' + image
             }
         })
         return movie
